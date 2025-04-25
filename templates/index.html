@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <!-- Primary Meta Tags -->
+  <title>B-GRID Technologies | Affordable Web, App & Software Development in Kerala</title>
+  <meta name="title" content="B-GRID Technologies | Affordable Web, App & Software Development in Kerala">
+  <meta name="description" content="Build stunning, responsive websites, mobile apps, and custom software at budget-friendly rates. Powered by Python, Django, Flask, JavaScript, HTML/CSS. Trusted by startups, students, and SMEs across all districts of Kerala.">
+  <meta name="keywords" content="B-GRID, B-GRID Technologies, bgridtechnologies.in, web development Kerala, software company Kerala, Python developers Kerala, Django company, Flask backend experts, HTML CSS JavaScript websites, cheap mobile app Kerala, affordable software for students, tech for startups, LMS development, AI summary generator, Kerala budget IT firm, responsive website Kerala, e-commerce apps Kerala, startup IT partner, software for clinics, CRM dashboard development, BGRID Kerala, Kannur tech company, Kozhikode developers, Thrissur websites, Ernakulam apps, Trivandrum Python, Wayanad software agency, Kottayam IT firm, Alappuzha website maker, Pathanamthitta student projects, Idukki digital services, Kollam e-commerce builder, Kasaragod tech, Malappuram developers, Palakkad fullstack apps, Kerala final year project support, Google Forms integration, Node.js SQL backend, Firebase hosting, premium cheap websites India">    <!-- Extra Metadata -->    <meta name="author" content="B-GRID Technologies, Kerala">    <meta name="robots" content="index, follow">    <meta name="language" content="English">    <meta name="theme-color" content="#ff6600">    <meta name="distribution" content="global">    <meta name="revisit-after" content="7 days">    <!-- Geo Tagging -->    <meta name="geo.region" content="IN-KL">    <meta name="geo.placename" content="Kerala">    <meta name="geo.position" content="10.8505;76.2711">    <meta name="ICBM" content="10.8505, 76.2711">    <!-- Canonical URL -->    <link rel="canonical" href="https://bgridtechnologies.in/">    <!-- Open Graph / Facebook -->    <meta property="og:type" content="website">    <meta property="og:url" content="https://bgridtechnologies.in/">    <meta property="og:title" content="B-GRID Technologies | Budget Tech Experts in Kerala">    <meta property="og:description" content="Affordable web & app solutions using Python, Django, JavaScript, and more. Supporting Kerala’s startups, students, and SMEs.">    <meta property="og:image" content="https://bgridtechnologies.in/og-image.jpg"> <!-- replace with your actual OG image -->    <!-- Twitter -->    <meta name="twitter:card" content="summary_large_image">    <meta name="twitter:url" content="https://bgridtechnologies.in/">    <meta name="twitter:title" content="B-GRID Technologies | Kerala Tech Partner for Startups & Students">    <meta name="twitter:description" content="Premium software services at student-friendly prices. Full-stack projects, LMS tools, AI integrations & more.">
+  <meta name="twitter:image" content="https://bgridtechnologies.in/og-image.jpg">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="nav-container">
+      <div class="logo">
+        <img src="{{ url_for('static', filename='img/GG.png') }}" alt="B-GRID Logo">
+    </div>
+    
+      <div class="hamburger" id="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#welcome">Welcome</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="hero-content">
+      <h1>Smart, Scalable, Stunning — Built by B-GRID</h1>
+      <p>Your next-gen solution awaits.</p>
+      <div class="cta">
+        <a href="#projects">
+          <button class="btn">Explore Our Work</button>
+      </a>
+      <a href="#contact">
+        <button class="btn secondary">Launch Your Project</button>
+      </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Welcome Section -->
+  <section id="welcome" class="info-section">
+    <h2 class="section-title gradient-blue">Welcome to B-GRID</h2>
+    <p>At B-GRID Technologies, we are committed to pushing the boundaries of technology. We deliver innovative solutions and services that empower businesses to thrive in an ever-changing digital world. Our team is dedicated to providing top-notch services tailored to meet your unique needs, from cutting-edge software development to scalable cloud solutions.</p>  </section>
+
+  <!-- Who Are We -->
+  <section class="info-section">
+    <h2 class="section-title gradient-purple">Who Are We?</h2>
+    <p>We are B-GRID Technologies, a forward-thinking technology company that strives to make a difference. With years of expertise in the tech industry, our team brings together diverse skills to deliver outstanding solutions for businesses of all sizes. We believe in the power of innovation, collaboration, and continuous improvement to create value for our clients and partners. Our focus is on providing top-tier digital services, helping businesses evolve and adapt in a rapidly evolving landscape.</p>
+    <p>Whether you're a startup or an established enterprise, B-GRID Technologies is here to help you navigate the complexities of the digital world. Our tailored solutions are designed to drive growth, streamline operations, and achieve success.</p>  </section>
+
+  <!-- Why Choose Us -->
+  <section id="why" class="info-section">
+    <h2 class="section-title gradient-orange">Why Choose Us?</h2>
+    <div class="cards-grid">
+      <div class="card hover-blue">
+        <h3>AI-first Architecture</h3>
+        <p>Integrated chatbots, recommendation systems, and automation tools for intelligent applications.</p>
+      </div>
+      <div class="card hover-green">
+        <h3>Performance-Optimized</h3>
+        <p>SEO-optimized and performance-tested code on every build — ready for the real world.</p>
+      </div>
+      <div class="card hover-orange">
+        <h3>Expert Backend Solutions</h3>
+        <p>Expertise in Flask + MySQL/MongoDB to power dynamic admin panels and real-time data apps.</p>
+      </div>
+      <div class="card hover-cyan">
+        <h3>Scalable Solutions</h3>
+        <p>Scalable backend and budget deployment options for startups & NGOs with flexible pricing.</p>
+      </div>
+      <div class="card hover-purple">
+        <h3>Clean Frontend Design</h3>
+        <p>Responsive, scroll-animated frontends with custom illustrations and interactivity for better user engagement.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="info-section">
+    <h2 class="section-title gradient-green">Our Services</h2>
+    <div class="cards-grid">
+      <div class="card hover-blue">
+        <h3>Custom Web Development</h3>
+        <p>From elegant portfolios to robust CMS solutions, our Flask-based builds are both beautiful and functional.</p>
+      </div>
+      <div class="card hover-green">
+        <h3>AI-Powered Python Apps</h3>
+        <p>We develop custom desktop and backend apps with machine learning logic and user-friendly interfaces.</p>
+      </div>
+      <div class="card hover-orange">
+        <h3>Admin Dashboards</h3>
+        <p>Manage content, users, and analytics in real time with dynamic panels linked to MySQL or MongoDB backends.</p>
+      </div>
+      <div class="card hover-cyan">
+        <h3>SEO & Speed Optimization</h3>
+        <p>We optimize every part of your tech stack — meta tags, load time, responsiveness, and crawlability.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Technologies -->
+  <section id="tech" class="info-section">
+    <h2 class="section-title gradient-red">Technologies We Use</h2>
+    <div class="cards-grid">
+      <div class="card hover-purple">
+        <h3>Frontend</h3>
+        <p>HTML5, CSS3, Vanilla JS, Bootstrap 5, animation libraries, responsive layout builders, and custom SVGs.</p>
+      </div>
+      <div class="card hover-orange">
+        <h3>Backend</h3>
+        <p>Flask (Python), Node.js, RESTful APIs, MySQL, SQLite3, NoSQL integrations, and user authentication systems.</p>
+      </div>
+      <div class="card hover-teal">
+        <h3>AI / ML Tools</h3>
+        <p>OpenAI, HuggingFace Transformers, TensorFlow Lite, Python NLP and vision libraries, and automated logic builders.</p>
+      </div>
+      <div class="card hover-red">
+        <h3>DevOps & Deployment</h3>
+        <p>GitHub Pages, Replit, Heroku, Render, Vercel, Netlify, PythonAnywhere — configured for free or scalable hosting.</p>
+      </div>
+    </div>
+  </section>
+<!-- Our Projects Section -->
+<section id="projects" class="info-section">
+    <h2 class="section-title gradient-blue">Our Projects</h2>
+    <div class="cards-grid">
+      <div class="card hover-blue">
+        <h3>Library AI</h3>
+        <p>An AI-powered book summarizer integrated into a library system with robot-assisted navigation.</p>
+      </div>
+      <div class="card hover-green">
+        <h3>Starlane Travel</h3>
+        <p>A booking-enabled travel website with custom scroll effects and itinerary management tools.</p>
+      </div>
+      <div class="card hover-orange">
+        <h3>JJ Enterprises</h3>
+        <p>SEO-ready hardware ordering portal with Google Sheets backend and product database.</p>
+      </div>
+      <div class="card hover-red">
+        <h3>Real-Time Messenger</h3>
+        <p>A Flask + JS chat app with password-lock, offline sync, and desktop GUI.</p>
+      </div>
+      <div class="card hover-cyan">
+        <h3>RentalSphere</h3>
+        <p>Upcoming: A full-stack rental service platform under co-development. Launching soon!</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="info-section">
+    <h2 class="section-title gradient-purple">Testimonials</h2>
+    <div class="cards-grid">
+      <div class="card hover-green">
+        <p>"B-GRID transformed our outdated website into a dynamic platform with AI and analytics integration. Super impressive!"</p>
+        <strong>– Alex M., Startup Founder</strong>
+      </div>
+      <div class="card hover-blue">
+        <p>"Professional team, fast delivery, and clean code. Highly recommend for any student-led project or NGO startup!"</p>
+        <strong>– Revathi K., NGO Coordinator</strong>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer / Contact -->
+  <!-- Footer / Contact -->
+<!-- Footer / Contact -->
+<footer id="contact" class="footer">
+    <h2>Contact Us</h2>
+    <p>We usually respond in less than 24 hours. Let's build your dream platform today.</p>
+  
+    <form id="contactForm" action="https://script.google.com/macros/s/AKfycbwAxaDXesBKBGoF23nbtzs6tiD8p544AyOLSJgtXjh44zKBJHgd0olB-CQtWnM0qBWskA/exec" method="POST">
+        <input type="text" name="name" id="name" placeholder="Your Name" required><br><br>
+        <input type="email" name="email" id="email" placeholder="Your Email" required><br><br>
+        <textarea name="message" id="message" placeholder="Your Message" required></textarea><br><br>
+        <button type="submit">Submit</button>
+     </form>
+     
+    <div class="footer-links">
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#tech">Technologies</a>
+      <a href="#contact">Contact</a>
+    </div>
+    
+  <!-- Call and Email Options -->
+  <div class="contact-options">
+    <p>Or you can reach us directly:</p>
+    <a href="tel:+919400090246" class="contact-link">Call Us: +91 9400090246</a><br>
+    <a href="mailto:contact@bgridtechnologies.in" class="contact-link">Email Us: contact@bgridtechnologies.in</a>
+    <!-- WhatsApp Link -->
+    <a href="https://wa.me/+919400090246?text=Hello,%20I%20am%20interested%20in%20your%20services." class="contact-link" target="_blank">Message Us on WhatsApp</a>
+  </div>
+
+    <p class="footer-note">© B-GRID Technologies | Built by Students | Powered by Flask</p>
+  </footer>
+  
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
+    const body = document.body;
+  
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      navLinks.classList.toggle('active');
+      body.classList.toggle('lock-scroll');
+    });
+  
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      link.addEventListener('click', () => {
+        hamburger.classList.remove('active');
+        navLinks.classList.remove('active');
+        body.classList.remove('lock-scroll');
+      });
+    });
+  </script>
+  
+  <script>
+    document.getElementById('contactForm').addEventListener('submit', function(event) {
+      event.preventDefault();
+  
+      const form = new FormData(this); // Get form data
+      const actionURL = this.action;   // The URL from the form action
+  
+      // Use Fetch API to submit the form data to the Google Apps Script
+      fetch(actionURL, {
+        method: 'POST',
+        body: form
+      })
+      .then(response => response.text())
+      .then(data => {
+        // Show a success message to the user
+        alert("Thank you for your submission!");
+        document.getElementById('contactForm').reset();  // Reset form after submission
+      })
+      .catch(error => {
+        console.error("Error: ", error);
+        alert("There was an issue with your submission. Please try again.");
+      });
+    });
+  </script>
+  
+  
+</body>
+</html>
